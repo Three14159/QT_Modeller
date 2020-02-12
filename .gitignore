@@ -1,87 +1,129 @@
-**/venv/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
+# C extensions
+*.so
 
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
 
+# Translations
+*.mo
+*.pot
 
-####   Help documentation below
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
 
+# Flask stuff:
+instance/
+.webassets-cache
 
-##  Commented Line
-##  Create from text editor and save as .gitignore.txt. Then from command line:    ren ".gitignore.txt" ".gitignore"
+# Scrapy stuff:
+.scrapy
 
-# Lines starting with `#` are comments.
+# Sphinx documentation
+docs/_build/
 
-# Ignore files called 'file.ext'
-# file.ext
+# PyBuilder
+target/
 
-# Comments can't be on the same line as rules!
-# The following line ignores files called 'file.ext # not a comment'
-#     file.ext # not a comment 
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Ignoring files with full path.
-# This matches files in the root directory and subdirectories too.
-# i.e. otherfile.ext will be ignored anywhere on the tree.
-#      dir/otherdir/file.ext
-#       otherfile.ext
+# IPython
+profile_default/
+ipython_config.py
 
-# Ignoring directories
-# Both the directory itself and its contents will be ignored.
-*  bin/
-#  gen/
+# pyenv
+.python-version
 
-# Glob pattern can also be used here to ignore paths with certain characters.
-# For example, the below rule will match both build/ and Build/
-#       [bB]uild/
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
 
-# Without the trailing slash, the rule will match a file and/or
-# a directory, so the following would ignore both a file named `gen`
-# and a directory named `gen`, as well as any contents of that directory
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
 
-# Ignoring files by extension
-# All files with these extensions will be ignored in
-# this directory and all its sub-directories.
-#*.apk
-#*.class
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
 
-# It's possible to combine both forms to ignore files with certain
-# extensions in certain directories. The following rules would be
-# redundant with generic rules defined above.
-# java/*.apk
-# gen/*.class
+# SageMath parsed files
+*.sage.py
 
-# To ignore files only at the top level directory, but not in its
-# subdirectories, prefix the rule with a `/`
-#    /*.apk
-#    /*.class
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# To ignore any directories named DirectoryA 
-# in any depth use ** before DirectoryA
-# Do not forget the last /, 
-# Otherwise it will ignore all files named DirectoryA, rather than directories
-# **/DirectoryA/
-# This would ignore 
-# DirectoryA/
-# DirectoryB/DirectoryA/ 
-# DirectoryC/DirectoryB/DirectoryA/
-# It would not ignore a file named DirectoryA, at any level
+# Spyder project settings
+.spyderproject
+.spyproject
 
-# To ignore any directory named DirectoryB within a 
-# directory named DirectoryA with any number of 
-# directories in between, use ** between the directories
-# DirectoryA/**/DirectoryB/
-# This would ignore 
-# DirectoryA/DirectoryB/ 
-# DirectoryA/DirectoryQ/DirectoryB/ 
-# DirectoryA/DirectoryQ/DirectoryW/DirectoryB/
+# Rope project settings
+.ropeproject
 
-# To ignore a set of files, wildcards can be used, as can be seen above.
-# A sole '*' will ignore everything in your folder, including your .gitignore file.
-# To exclude specific files when using wildcards, negate them.
-# So they are excluded from the ignore list:
-#     !.gitignore 
+# mkdocs documentation
+/site
 
-# Use the backslash as escape character to ignore files with a hash (#)
-# (supported since 1.6.2.1)
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
