@@ -19,7 +19,7 @@ class TMainWindow(QtWidgets.QMainWindow):
 		self.ui.setupUi(self)
 
 def CallDesigned(uiFile):
-	# CallDesigned("MainWindow.ui")
+	# usage:   CallDesigned("MainWindow.ui")
 	Form, Window = uic.loadUiType(uiFile)
 	app = QApplication([])
 	window = Window()
