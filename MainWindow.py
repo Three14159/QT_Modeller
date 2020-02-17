@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'MainWindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.14.1
+# Created by: PyQt5 UI code generator 5.13.0
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -65,9 +65,28 @@ class Ui_MainWindow(object):
         self.FindDBConnectionBtn.setGeometry(QtCore.QRect(440, 20, 31, 31))
         self.FindDBConnectionBtn.setIcon(icon)
         self.FindDBConnectionBtn.setObjectName("FindDBConnectionBtn")
-        self.textEdit_2 = QtWidgets.QTextEdit(self.DBConnectionGrp)
-        self.textEdit_2.setGeometry(QtCore.QRect(10, 20, 430, 31))
-        self.textEdit_2.setObjectName("textEdit_2")
+        self.DBConnectionEdit = QtWidgets.QTextEdit(self.DBConnectionGrp)
+        self.DBConnectionEdit.setGeometry(QtCore.QRect(10, 20, 430, 31))
+        self.DBConnectionEdit.setObjectName("DBConnectionEdit")
+        self.gridLayoutWidget = QtWidgets.QWidget(self.widget1)
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(510, 70, 251, 111))
+        self.gridLayoutWidget.setObjectName("gridLayoutWidget")
+        self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
+        self.gridLayout.setContentsMargins(4, 2, 4, 4)
+        self.gridLayout.setSpacing(2)
+        self.gridLayout.setObjectName("gridLayout")
+        self.pushButton_4 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.gridLayout.addWidget(self.pushButton_4, 0, 1, 1, 1)
+        self.pushButton_5 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.gridLayout.addWidget(self.pushButton_5, 3, 1, 1, 1)
+        self.pushButton = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pushButton.setObjectName("pushButton")
+        self.gridLayout.addWidget(self.pushButton, 3, 0, 1, 1)
+        self.CollateLineupsBtn = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.CollateLineupsBtn.setObjectName("CollateLineupsBtn")
+        self.gridLayout.addWidget(self.CollateLineupsBtn, 0, 0, 1, 1)
         self.tabWidget.addTab(self.widget1, "")
         self.verticalLayout.addWidget(self.tabWidget)
         MainWindow.setCentralWidget(self.centralwidget)
@@ -102,6 +121,11 @@ class Ui_MainWindow(object):
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.widget), _translate("MainWindow", "Model"))
         self.DBConnectionGrp.setTitle(_translate("MainWindow", "DB Connection "))
         self.FindDBConnectionBtn.setText(_translate("MainWindow", "..."))
+        self.DBConnectionEdit.setPlaceholderText(_translate("MainWindow", "D:\\NRL_FILES\\SQLite\\ALEX_NRL_XML.sqlite"))
+        self.pushButton_4.setText(_translate("MainWindow", "PushButton"))
+        self.pushButton_5.setText(_translate("MainWindow", "PushButton"))
+        self.pushButton.setText(_translate("MainWindow", "PushButton"))
+        self.CollateLineupsBtn.setText(_translate("MainWindow", "Collate Lineups"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.widget1), _translate("MainWindow", "Setup"))
         self.actionCut.setText(_translate("MainWindow", "Cut"))
         self.actionCopy.setText(_translate("MainWindow", "Copy"))

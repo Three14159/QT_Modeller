@@ -4,6 +4,10 @@ from MainWindow import Ui_MainWindow
 from PyQt5 import uic
 import sys
 
+
+import NRLSQLite as NRLSQ
+import NRLDotComObjects as NRLOBJ
+
 # From Designer, save ui to MainWindow.ui.  File name is arbitrary.
 # Program can be run from Call Designed.  Or......
 # Convert ui to Python Class via command line:
@@ -12,11 +16,15 @@ import sys
 
 # Do not make any changes to converted file MainWindow.py, they will all be lost.
 
+def CollateLineupsBtn_OnClick():
+	print("Clicked")
+
 class TMainWindow(QtWidgets.QMainWindow):
 	def __init__(self):
 		super(TMainWindow, self).__init__()
 		self.ui = Ui_MainWindow()
 		self.ui.setupUi(self)
+		self.CollateLineupsBtn.clicked.connect(CollateLineupsBtn_OnClick)
 
 def CallDesigned(uiFile):
 	# usage:   CallDesigned("MainWindow.ui")
