@@ -1,9 +1,11 @@
+import sys
+import os
+
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication
-from MainWindow import Ui_MainWindow
 from PyQt5 import uic
-import sys
 
+from MainWindow import Ui_MainWindow
 
 import NRLSQLite as NRLSQ
 import NRLDotComObjects as NRLOBJ
@@ -17,14 +19,26 @@ import NRLDotComObjects as NRLOBJ
 # Do not make any changes to converted file MainWindow.py, they will all be lost.
 
 def CollateLineupsBtn_OnClick():
-	print("Clicked")
+	print("I hope she rots.  Lets see how she feels when I rub 'YOU cant have THIS' in her face.  Gonna be fun")
 
 class TMainWindow(QtWidgets.QMainWindow):
 	def __init__(self):
 		super(TMainWindow, self).__init__()
 		self.ui = Ui_MainWindow()
 		self.ui.setupUi(self)
-		self.CollateLineupsBtn.clicked.connect(CollateLineupsBtn_OnClick)
+		self.ui.CollateLineupsBtn.clicked.connect(self.CollateLineupsBtn_OnClick)
+
+
+	def GetSQPath(self):
+		_sq_path = str(self.ui.DBConnectionTextEdit.toPlainText())
+		return _sq_path
+
+	def CollateLineupsBtn_OnClick(self):
+		print("QT message: Collation Starting")
+		_sq_path = self.GetSQPath()
+		print(f"QT message: SQPath = {_sq_path}")
+		NRLOBJ.CollateLineups(_sq_path)
+		print("QT message:  Lineups Collated")
 
 def CallDesigned(uiFile):
 	# usage:   CallDesigned("MainWindow.ui")

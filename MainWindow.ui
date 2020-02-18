@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
+ <author>alex moore</author>
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1039</width>
+    <width>660</width>
     <height>843</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>743</width>
+    <height>843</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string/>
+   <string>QT NRL Modelling Tools</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="enabled">
@@ -22,17 +41,23 @@
      <rect>
       <x>10</x>
       <y>40</y>
-      <width>1011</width>
+      <width>641</width>
       <height>731</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QTabWidget" name="tabWidget">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="currentIndex">
         <number>1</number>
        </property>
-       <widget class="QWidget" name="widget">
+       <widget class="QWidget" name="ModelPage">
         <attribute name="title">
          <string>Model</string>
         </attribute>
@@ -89,8 +114,8 @@
         <widget class="QGroupBox" name="OutputDirGrp">
          <property name="geometry">
           <rect>
-           <x>510</x>
-           <y>50</y>
+           <x>10</x>
+           <y>120</y>
            <width>491</width>
            <height>61</height>
           </rect>
@@ -98,16 +123,6 @@
          <property name="title">
           <string>Output Directory</string>
          </property>
-         <widget class="QTextEdit" name="textEdit">
-          <property name="geometry">
-           <rect>
-            <x>10</x>
-            <y>20</y>
-            <width>440</width>
-            <height>31</height>
-           </rect>
-          </property>
-         </widget>
          <widget class="QToolButton" name="toolButton_2">
           <property name="geometry">
            <rect>
@@ -126,34 +141,87 @@
            </iconset>
           </property>
          </widget>
+         <widget class="QTextEdit" name="textEdit">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>440</width>
+            <height>31</height>
+           </rect>
+          </property>
+         </widget>
         </widget>
        </widget>
-       <widget class="QWidget" name="widget">
+       <widget class="QWidget" name="ModelToolsPage">
         <attribute name="title">
-         <string>Setup</string>
+         <string>Tools</string>
         </attribute>
-        <widget class="QGroupBox" name="DBConnectionGrp">
+        <widget class="QWidget" name="verticalLayoutWidget_3">
          <property name="geometry">
           <rect>
-           <x>12</x>
-           <y>60</y>
-           <width>480</width>
-           <height>80</height>
+           <x>9</x>
+           <y>39</y>
+           <width>2</width>
+           <height>2</height>
           </rect>
          </property>
-         <property name="title">
-          <string>DB Connection </string>
+         <layout class="QVBoxLayout" name="verticalLayout_3"/>
+        </widget>
+        <widget class="QFrame" name="DBFrame">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>611</width>
+           <height>261</height>
+          </rect>
          </property>
-         <property name="flat">
-          <bool>true</bool>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
          </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QPlainTextEdit" name="DBConnectionTextEdit">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>391</width>
+            <height>29</height>
+           </rect>
+          </property>
+          <property name="plainText">
+           <string>D:\NRL_FILES\SQLite\ALEX_NRL_XML.sqlite</string>
+          </property>
+          <property name="placeholderText">
+           <string>D:\\NRL_FILES\\SQLite\\ALEX_NRL_XML.sqlite</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="DBConnLbl">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>92</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>DB Connection</string>
+          </property>
+          <property name="buddy">
+           <cstring>DBConnectionTextEdit</cstring>
+          </property>
+         </widget>
          <widget class="QToolButton" name="FindDBConnectionBtn">
           <property name="geometry">
            <rect>
-            <x>440</x>
-            <y>20</y>
-            <width>31</width>
-            <height>31</height>
+            <x>400</x>
+            <y>30</y>
+            <width>29</width>
+            <height>29</height>
            </rect>
           </property>
           <property name="text">
@@ -165,74 +233,47 @@
            </iconset>
           </property>
          </widget>
-         <widget class="QTextEdit" name="DBConnectionEdit">
+         <widget class="QWidget" name="verticalLayoutWidget_2">
           <property name="geometry">
            <rect>
-            <x>10</x>
-            <y>20</y>
-            <width>430</width>
-            <height>31</height>
+            <x>440</x>
+            <y>30</y>
+            <width>151</width>
+            <height>76</height>
            </rect>
           </property>
-          <property name="placeholderText">
-           <string>D:\NRL_FILES\SQLite\ALEX_NRL_XML.sqlite</string>
-          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="spacing">
+            <number>10</number>
+           </property>
+           <property name="leftMargin">
+            <number>4</number>
+           </property>
+           <property name="topMargin">
+            <number>4</number>
+           </property>
+           <property name="rightMargin">
+            <number>4</number>
+           </property>
+           <property name="bottomMargin">
+            <number>4</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="CollateLineupsBtn">
+             <property name="text">
+              <string>Collate Lineups</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="RewriteSnapshotsBtn">
+             <property name="text">
+              <string>Rewrite Snapshots</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
-        </widget>
-        <widget class="QWidget" name="gridLayoutWidget">
-         <property name="geometry">
-          <rect>
-           <x>510</x>
-           <y>70</y>
-           <width>251</width>
-           <height>111</height>
-          </rect>
-         </property>
-         <layout class="QGridLayout" name="gridLayout">
-          <property name="leftMargin">
-           <number>4</number>
-          </property>
-          <property name="topMargin">
-           <number>2</number>
-          </property>
-          <property name="rightMargin">
-           <number>4</number>
-          </property>
-          <property name="bottomMargin">
-           <number>4</number>
-          </property>
-          <property name="spacing">
-           <number>2</number>
-          </property>
-          <item row="0" column="1">
-           <widget class="QPushButton" name="pushButton_4">
-            <property name="text">
-             <string>PushButton</string>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="1">
-           <widget class="QPushButton" name="pushButton_5">
-            <property name="text">
-             <string>PushButton</string>
-            </property>
-           </widget>
-          </item>
-          <item row="3" column="0">
-           <widget class="QPushButton" name="pushButton">
-            <property name="text">
-             <string>PushButton</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="0">
-           <widget class="QPushButton" name="CollateLineupsBtn">
-            <property name="text">
-             <string>Collate Lineups</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
         </widget>
        </widget>
       </widget>
@@ -245,12 +286,53 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1039</width>
+     <width>660</width>
      <height>27</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCut_2"/>
+    <addaction name="actionCopy_2"/>
+    <addaction name="actionPaste_2"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuDatabase">
+    <property name="title">
+     <string>Database</string>
+    </property>
+    <addaction name="actionVacuum"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_2"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuDatabase"/>
+   <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
   <action name="actionCut">
    <property name="text">
     <string>Cut</string>
@@ -274,6 +356,31 @@
   <action name="actionExit">
    <property name="text">
     <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionCut_2">
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionCopy_2">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPaste_2">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionVacuum">
+   <property name="text">
+    <string>Vacuum</string>
+   </property>
+  </action>
+  <action name="actionAbout_2">
+   <property name="text">
+    <string>About</string>
    </property>
   </action>
  </widget>
