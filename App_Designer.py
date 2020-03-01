@@ -18,8 +18,8 @@ import NRLDotComObjects as NRLOBJ
 
 # Do not make any changes to converted file MainWindow.py, they will all be lost.
 
-def CollateLineupsBtn_OnClick():
-	print("I hope she rots.  Lets see how she feels when I rub 'YOU cant have THIS' in her face.  Gonna be fun")
+# def CollateLineupsBtn_OnClick():
+# 	sq_path =
 
 class TMainWindow(QtWidgets.QMainWindow):
 	def __init__(self):
@@ -37,7 +37,7 @@ class TMainWindow(QtWidgets.QMainWindow):
 		print("QT message: Collation Starting")
 		_sq_path = self.GetSQPath()
 		print(f"QT message: SQPath = {_sq_path}")
-		NRLOBJ.CollateLineups(_sq_path)
+		NRLOBJ.CollateLineups(_sq_path, verbose = True)
 		print("QT message:  Lineups Collated")
 
 def CallDesigned(uiFile):
