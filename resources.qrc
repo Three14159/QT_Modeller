@@ -1,0 +1,233 @@
+<RCC>
+  <qresource prefix="glyphs">
+    <file>D:/icon_library/Seanu/Network and Earth/astronauts/PNG/16/astronauts_16.png</file>
+    <file>D:/icon_library/Seanu/Network and Earth/astronauts/PNG/24/astronauts_24.png</file>
+    <file>D:/icon_library/Seanu/Network and Earth/astronauts/PNG/32/astronauts_32.png</file>
+    <file>D:/icon_library/Seanu/Office/forms/PNG/24/Forms_24.png</file>
+    <file>D:/icon_library/Seanu/Office/forms/PNG/16/Forms_16.png</file>
+    <file>D:/icon_library/Seanu/Office/forms/PNG/32/Forms_32.png</file>
+    <file>D:/icon_library/Seanu/Office/forms/PNG/48/Forms_48.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/3d bar chart.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Abort.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/About.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Accounting.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Address book.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Alarm clock.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Alarm.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Alert.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Alien.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Anchor.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Application.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Apply.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Back.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Bad mark.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Bee.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Black bookmark.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Black pin.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Black tag.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Blog.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Blue bookmark.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Blue key.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Blue pin.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Blue tag.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Bomb.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Bookmark.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Boss.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Bottom.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Briefcase.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Brush.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Bubble.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Buy.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Calculator.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Calendar.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Cancel.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Car key.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/CD.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Clipboard.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Clock.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Comment.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Company.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Compass.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Component.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Computer.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Copy.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Create.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Cut.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Danger.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Database.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Delete.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Delivery.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Diagram.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Dial.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Disaster.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Display 16x16.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Dollar.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Down.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Download.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Downloads folder.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Earth.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Eject.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/E-mail.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Equipment.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Erase.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Error.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Euro.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Exit.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Expand.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Eye.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Fall.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Fast-forward.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Favourites.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Female symbol.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Female.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Film.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Filter.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Find.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/First record.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/First.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Flag.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Flash drive.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Folder.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Forbidden.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Forward.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Free bsd.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Gift.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Globe.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Go back.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Go forward.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Go.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Good mark.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Green bookmark.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Green pin.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Green tag.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Hard disk.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Heart.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Help book 3d.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Help book.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Help symbol.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Help.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Hint.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/History.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Home.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Hourglass.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/How-to.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Hungup.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Info.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/In-yang.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Iphone.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Key.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Last recor.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Last.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Left-right.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Lightning.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Liner.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Linux.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/List.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Load.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Lock.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Low rating.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Magic wand.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Mail.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Male symbol.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Male.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Medium rating.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Message.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Mobile-phone.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Modify.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Move.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Movie.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Music.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Mute.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Network connection.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/New document.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/New.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Next track.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Next.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/No.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/No-entry.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Notes.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/OK.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Paste.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Pause.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/People.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Percent.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Person.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Phone number.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Phone.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Pie chart.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Pinion.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Play.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Playback.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Play-music.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Previous record.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Previous.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Print.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Problem.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Question.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Radiation.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Raise.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Record.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Red bookmark.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Red mark.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Red pin.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Red star.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Red tag.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Redo.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Refresh.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Remove.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Repair.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Report.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Retort.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Rewind.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Sad.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Save.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Schedule.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Script.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Search.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Shield.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Shopping cart.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Silence.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Smile.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Sound.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Stop sign.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Stop.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Stopwatch.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Sum.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Sync.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Table.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Target.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Taxi.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Terminate.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Text preview.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Text.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Thumbs down.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Thumbs up.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Toolbox.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Top.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Trackback.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Trash.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Tune.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Turn off.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Twitter.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Undo.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Unlock.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Up.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Update.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Up-down.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Upload.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/User group.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/View.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Volume.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Wallet.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Warning.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Wrench.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Yellow bookmark.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Yellow pin.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Yellow tag.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Yes.png</file>
+    <file>D:/icon_library/aha-soft/png/16x16/Zoom.png</file>
+    <file>D:/icon_library/Seanu/Control/control-16-4-g-1/PNG/16/arrow_plus_g_16.png</file>
+    <file>D:/icon_library/Seanu/Control/control-16-4-g-1/PNG/24/arrow_plus_g_24.png</file>
+    <file>D:/icon_library/Seanu/Control/control-16-4-g-1/PNG/48/arrow_plus_g_48.png</file>
+  </qresource>
+</RCC>
